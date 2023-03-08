@@ -1,0 +1,136 @@
+/* body{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+div{
+    padding: 10px;
+    margin: 10px;
+} */
+
+
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    font-family: 'Poppins', sans-serif;
+    /* width: 100%; */
+    padding: 10px;
+    min-height:calc(100vh - 80px);
+}
+
+.wrapper{
+    max-width: 550px;
+    margin: 25px auto;
+    padding: 25px 0;
+    box-shadow: 0 0 15px -10px #2d3748;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+#form{
+    /* margin-top: 45px; */
+    width: 100%;
+    padding: 20px;
+}
+
+form .input-control input{
+    width: 80%;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid rgb(141, 141, 234);
+    outline: none;
+    margin: 10px;
+    margin-top: 9px;
+    font-size: 12px;
+    background-color: transparent ;
+    
+}
+form .input-control select{
+    width: 70%;
+    padding: 20px;
+    border: none;
+    border-bottom: 2px solid rgb(141, 141, 234);
+    outline: none;
+    margin: 10px;
+    margin-top: 9px;
+    font-size: 12px;
+    
+}
+
+form .input-control label{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+form .input-control input:focus{
+    border-bottom:2px solid rgba(66, 153, 225,0.6);
+}
+
+
+form .input-control input::placeholder{
+    color: #8694a8;
+    letter-spacing: .5px;
+    font-size: 14px;
+}
+
+
+ h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    /* width: 100%; */
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 4px;
+    display: inline;
+    margin-left: 10px;
+}
+
+ .input-control {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+} 
+
+/* .input-control input {
+    border: none;
+    border-bottom: 2px solid rgb(141, 141, 234);
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+    outline: none;
+    margin: 10px;
+
+ } */
+
+.input-control input:focus {
+    outline:brown;
+}
+
+
+.input-control.error {
+    border-color: #ff3860;
+}
+
+.error {
+    color: #ff3860;
+    font-size: 12px;
+    padding: 10px;
+    margin: 5px;
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+} 
